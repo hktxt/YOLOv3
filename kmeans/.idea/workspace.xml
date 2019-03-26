@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a44077d-ca86-4f31-b542-9cc52b329bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco_annotation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_COCODataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../01_COCODataset.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="0a44077d-ca86-4f31-b542-9cc52b329bbd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +12,7 @@
     <session id="-1168819768">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -82,8 +77,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="23" />
+    <option name="x" value="213" />
+    <option name="y" value="19" />
     <option name="width" value="1400" />
     <option name="height" value="997" />
   </component>
@@ -190,7 +185,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="23" width="1400" height="997" extended-state="0" />
+    <frame x="213" y="19" width="1400" height="997" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -203,7 +198,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32946634" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39907193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
