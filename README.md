@@ -1,15 +1,7 @@
-# ReadMe
+# Description
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+This repository contains implementation of inference and training code of YOLOv3 in PyTorch. The code can work on Linux, MacOS and Windows and it support custom data trianing as well. Credit to Joseph Redmon for YOLO: https://pjreddie.com/darknet/yolo/ and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: [yolov3](https://github.com/ultralytics/yolov3) and [yolo_v3](https://github.com/ydixon/yolo_v3). Just go to the [Dev]() for more details of YOLOv3.
 
-This repository is YOLO series implementation, which contains YOLOv1, YOLOv2 and YOLOv3. Forked from otheres(listed below) and fixed some issues by myself, and added some explanation as well. This repository is for pesonal study only. The repository constituted as follow:
-
-  - YOLO_v3_tutorial_from_scratch
-  This is forked from https://github.com/ayooshkathuria/YOLO_v3_tutorial_from_scratch, you can check original version to see how to get start(don't forget to download the weights). some code issues were fixed and explanations were added. better understanding in jupyter files.
-  - pytorch-yolo-v3
-  It's from https://github.com/ayooshkathuria/pytorch-yolo-v3, check the link and explore how to run. balabala.....
-  - Non-Maximum Suppression.ipynb
-  Just a Non-Maximum Suppression implementation.
 
 # New Features!
 
