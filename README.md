@@ -5,8 +5,11 @@ This repository contains implementation of inference and training code of YOLOv3
 
 # Requirements
 
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+  - python >= 3.6
+  - numpy
+  - torch >= 1.0.0
+  - opencv
+  - CUDA(optional)
 
 
 You can also:
