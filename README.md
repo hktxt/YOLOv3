@@ -161,6 +161,7 @@ License
 ----
 
 MIT
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 
 **Free Software, Hell Yeah!**
@@ -188,3 +189,7 @@ MIT
    [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
    [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+   
+# Notation
+
+Please note, this is a research project! It should not be used as a definitive guide on object detection. The demo should be considered for research and entertainment value only.
