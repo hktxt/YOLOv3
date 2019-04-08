@@ -42,22 +42,6 @@ Markdown is a lightweight markup language based on the formatting conventions th
 
 This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
-### Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
 
 ### Installation
 
@@ -77,19 +61,6 @@ For production environments...
 $ npm install --production
 $ NODE_ENV=production node app
 ```
-
-### Plugins
-
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| Github | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 
 ### Development
@@ -147,15 +118,7 @@ Verify the deployment by navigating to your server address in your preferred bro
 127.0.0.1:8000
 ```
 
-#### Kubernetes + Google Cloud
 
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
-
-
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
 
 License
 ----
