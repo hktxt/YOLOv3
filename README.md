@@ -9,6 +9,8 @@ This repository contains implementation of inference and training code of YOLOv3
   - numpy
   - torch >= 1.0.0
   - opencv
+  - json
+  - matplotlib
   - CUDA(optional)
 
 
