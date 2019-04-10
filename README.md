@@ -15,8 +15,10 @@ This repository contains implementation of inference and training code of YOLOv3
 
 
 # Download Data
+```sh
 $ cd data/
 $ bash get_coco_dataset.sh
+```
 
 # Training
 
