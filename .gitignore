@@ -1,2 +1,5 @@
 yolov3-master/data/images/
 .ipynb_checkpoints
+__pycache__
+Dev/__pycache__
+Dev/.ipynb_checkpoints
