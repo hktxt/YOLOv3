@@ -1,9 +1,9 @@
-# Description
+### Description
 
 This repository contains implementation of inference and training code of YOLOv3 in PyTorch. The code can work on Linux, MacOS and Windows and it supports custom data trianing as well. Credit to Joseph Redmon for [YOLO](https://pjreddie.com/darknet/yolo/) and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: [yolov3](https://github.com/ultralytics/yolov3) and [yolo_v3](https://github.com/ydixon/yolo_v3). Just go to the [Dev]() for more details of YOLOv3.
 
 
-# Requirements
+### Requirements
 
   - python >= 3.6
   - numpy
@@ -14,17 +14,18 @@ This repository contains implementation of inference and training code of YOLOv3
   - CUDA(optional)
 
 
-# Download Data
+### Download Data
 ```sh
 $ cd data/
 $ bash get_coco_dataset.sh
 ```
 
-# Training
+### Training
+
+Just open train.ipynb and run all cells respectively. It will train yolov3 using COCO dataset. For custom data training, you should get your data ready and make annotations format indentical with yolo. Then change path in train.ipynb and run.
 
 
-
-# Inference
+### Inference
 
 
 
