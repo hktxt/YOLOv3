@@ -14,8 +14,9 @@ This repository contains implementation of inference and training code of YOLOv3
   - CUDA(optional)
 
 
-# Data Preparation
-
+# Download Data
+$ cd data/
+$ bash get_coco_dataset.sh
 
 # Training
 
