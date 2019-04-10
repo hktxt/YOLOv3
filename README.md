@@ -22,7 +22,7 @@ $ bash get_coco_dataset.sh
 
 ### Training
 
-Just open train.ipynb and run all cells respectively. It will train yolov3 using COCO dataset. For custom data training, you should get your data ready and make annotations format indentical with yolo. Then change path in train.ipynb and run.
+Just open [train.ipynb]() and run all cells respectively. It will train yolov3 using COCO dataset. For custom data training, you should get your own data ready and make annotations format is the same as yolo's. Then change path in train.ipynb and run.
 
 
 ### Inference
