@@ -37,6 +37,6 @@ License
 
 
    
-## Notation
+## Notice
 
 Please note, this is a research project! It should not be used as a definitive guide on object detection. The demo should be considered for research and entertainment value only.
