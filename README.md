@@ -1,6 +1,6 @@
 ### Description
 
-This repository contains implementation of inference and training code of YOLOv3 in PyTorch. It is self-contained on mainstream platform and it supports custom data trianing as well. Credit to Joseph Redmon for [YOLO](https://pjreddie.com/darknet/yolo/) and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: [yolov3](https://github.com/ultralytics/yolov3) and [yolo_v3](https://github.com/ydixon/yolo_v3). Just go to the [Dev]() for more details of YOLOv3.
+This repository contains implementation of training and inference code of YOLOv3 in PyTorch. It is self-contained on mainstream platform and it supports custom data trianing as well. Credit to Joseph Redmon for [YOLO](https://pjreddie.com/darknet/yolo/) and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: [yolov3](https://github.com/ultralytics/yolov3) and [yolo_v3](https://github.com/ydixon/yolo_v3). Just go to the [Dev]() for more details of YOLOv3.
 
 
 ### Requirements
@@ -39,4 +39,4 @@ License
    
 ## Notice
 
-Please note, this is a research project! It should not be used as a definitive guide on object detection. The demo should be considered for research and entertainment value only.
+Please note, this is a research project! It should not be used as a definitive guide on object detection. So many functions are not implemented which are vital in engineering. The demo should be considered for research and entertainment value only.
