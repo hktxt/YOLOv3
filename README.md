@@ -1,6 +1,6 @@
 ### Description
 
-This repository contains implementation of training and inference code of YOLOv3 in PyTorch. It is self-contained on mainstream platform and it supports custom data trianing as well. Credit to Joseph Redmon for [YOLO](https://pjreddie.com/darknet/yolo/) and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: [yolov3](https://github.com/ultralytics/yolov3) and [yolo_v3](https://github.com/ydixon/yolo_v3). Just go to the [Dev]() for more details of YOLOv3.
+This repository contains implementation of training and inference code of YOLOv3 in PyTorch. It is self-contained on mainstream platform and it supports custom data trianing as well. Credit to Joseph Redmon for [YOLO](https://pjreddie.com/darknet/yolo/) and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: [yolov3](https://github.com/ultralytics/yolov3) and [yolo_v3](https://github.com/ydixon/yolo_v3). It is recommended to read their codes to see the specific implementation steps and logic. Also you can just go to the [Dev]() for more details of YOLOv3.
 
 
 ### Requirements
@@ -27,7 +27,7 @@ Just open [train.ipynb]() and run all cells respectively. It will train yolov3 u
 
 ### Inference
 
-Open [test.ipynb]() and run all cells respectively. It will evaluate images in images folder using the model your trained.
+Open [test.ipynb]() and run all cells respectively. It will evaluate images in sample folder using the model your have trained.
 
 
 
@@ -39,4 +39,4 @@ License
    
 ## Notice
 
-Please note, this is a research project! It should not be used as a definitive guide on object detection. So many functions are not implemented which are vital in engineering. The demo should be considered for research and entertainment value only.
+Please note, this is a research project! It should not be used as a definitive guide on object detection. Many engineering features have not been implemented. The demo should be considered for research and entertainment value only.
