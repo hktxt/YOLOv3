@@ -29,7 +29,7 @@ Just open [train.ipynb]() and run all cells respectively. It will train yolov3 u
 
 Open [test.ipynb]() and run all cells respectively. It will evaluate images in sample folder using the model your have trained.
 
-
+<img src="sample/Adrian.jpg" width="200"> <img src="sample/dog.jpg" width="200">
 
 License
 ----
