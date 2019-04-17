@@ -25,7 +25,7 @@ The pretrained weights can be found on [Google Drive](https://drive.google.com/d
 
 ### Training
 *  **COCO dataset** Just open [train.ipynb]() and run all cells respectively. It will train yolov3 using COCO dataset. Using FROM_SCRATCH to control whether train from scratch.
-* **Custom dataset** For custom data training, you should get your own data ready and make annotations format is the same as yolo's. Bascially, you should modidy coco.data & coco.names to satisfy your dataset and also you should modify \*.cfg file, make yolo layers outputs satisfy the number of class of your dataset. There is a nice instruction about how to train cuntom dataset, which can be found [here](https://github.com/ultralytics/yolov3/wiki/Train-Custom-Data). After you get everything ready, run all cells of train.ipynb.
+* **Custom dataset** For custom data training, you should get your own data ready and make annotations format is the same as yolo's. Bascially, you should modidy coco.data & coco.names to satisfy your dataset and also you should modify \*.cfg file, make yolo layers outputs satisfy the number of class of your dataset. There is a nice instruction about how to train custom dataset, which can be found [here](https://github.com/ultralytics/yolov3/wiki/Train-Custom-Data). After you get everything ready, run all cells of train.ipynb.
 
 
 ### Inference
