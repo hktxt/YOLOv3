@@ -24,7 +24,7 @@ $ bash get_coco_dataset.sh
 The pretrained weights can be found on [Google Drive](https://drive.google.com/drive/folders/1uxgUBemJVw9wZsdpboYbzUN4bcRhsuAI), download yolov3-tiny.conv.15 & darknet53.conv.74 and place under the weights folder. Actually, they can be downloaded automatically. However, if you want to train the model from scratch, you can skip this step.
 
 ### Training
-* cus
+*  **Training COCO dataset**
 Just open [train.ipynb]() and run all cells respectively. It will train yolov3 using COCO dataset. For custom data training, you should get your own data ready and make annotations format is the same as yolo's. Then change path in train.ipynb and run it.
 
 
