@@ -24,13 +24,13 @@ $ bash get_coco_dataset.sh
 The pretrained weights can be found on [Google Drive](https://drive.google.com/drive/folders/1uxgUBemJVw9wZsdpboYbzUN4bcRhsuAI), download yolov3-tiny.conv.15 & darknet53.conv.74 and place under the weights folder. Actually, they can be downloaded automatically. However, if you want to train the model from scratch, you can skip this step.
 
 ### Training
-*  **COCO dataset** Just open [train.ipynb]() and run all cells respectively. It will train yolov3 using COCO dataset. Using FROM_SCRATCH to control whether train from scratch.
+*  **COCO dataset** Just open [train.ipynb](train.ipynb) and run all cells respectively. It will train yolov3 using COCO dataset. Using FROM_SCRATCH to control whether train from scratch.
 * **Custom dataset** For custom data training, you should get your own data ready and make annotations format is the same as yolo's. Bascially, you should modidy coco.data & coco.names to satisfy your dataset and also you should modify \*.cfg file, make yolo layers outputs satisfy the number of class of your dataset. There is a nice instruction about how to train custom dataset, which can be found [here](https://github.com/ultralytics/yolov3/wiki/Train-Custom-Data). After you get everything ready, run all cells of train.ipynb.
 
 
 ### Inference
 
-Open [test.ipynb]() and run all cells respectively. It will evaluate images in sample folder using the model your have trained.
+Open [detect.ipynb](detect.ipynb) and run it. It can detect objects for a single image or more under sample folder. 
 
 <img src="sample/Adrian.jpg" width="400"> <img src="sample/dog.jpg" width="400">
 
