@@ -1,4 +1,5 @@
 import torch
+import torch.nn as nn
 import numpy as np
 import cv2
 import matplotlib
@@ -309,3 +310,39 @@ def ap_per_class(tp, conf, pred_cls, target_cls):
     f1 = 2 * p * r / (p + r + 1e-16)
 
     return p, r, ap, f1, unique_classes.astype('int32')
+
+def wh_iou(box1, box2):
+    # Returns the IoU of wh1 to wh2. wh1 is 2, wh2 is nx2
+    box2 = box2.t()
+
+    # w, h = box1
+    w1, h1 = box1[0], box1[1]
+    w2, h2 = box2[0], box2[1]
+
+    # Intersection area
+    inter_area = torch.min(w1, w2) * torch.min(h1, h2)
+
+    # Union Area
+    union_area = (w1 * h1 + 1e-16) + w2 * h2 - inter_area
+
+    return inter_area / union_area  # iou
+
+def plot_results(start=0, stop=0):  # from utils.utils import *; plot_results()
+    # Plot training results files 'results*.txt'
+    # import os; os.system('wget https://storage.googleapis.com/ultralytics/yolov3/results_v3.txt')
+
+    fig = plt.figure(figsize=(14, 7))
+    s = ['X + Y', 'Width + Height', 'Confidence', 'Classification', 'Train Loss', 'Precision', 'Recall', 'mAP', 'F1',
+         'Test Loss']
+    for f in sorted(glob.glob('results*.txt')):
+        results = np.loadtxt(f, usecols=[2, 3, 4, 5, 6, 9, 10, 11, 12, 13]).T
+        n = results.shape[1]  # number of rows
+        x = range(start, min(stop, n) if stop else n)
+        for i in range(10):
+            plt.subplot(2, 5, i + 1)
+            plt.plot(x, results[i, x], marker='.', label=f.replace('.txt', ''))
+            plt.title(s[i])
+            if i == 0:
+                plt.legend()
+    fig.tight_layout()
+    fig.savefig('results.png', dpi=300)
