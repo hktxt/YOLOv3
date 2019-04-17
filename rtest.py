@@ -5,18 +5,9 @@ import numpy as np
 from models import *
 from utils.datasets import *
 from utils.utils import *
+from tqdm import tqdm
 
-def test(
-        cfg,
-        data_cfg,
-        weights=None,
-        batch_size=16,
-        img_size=416,
-        iou_thres=0.5,
-        conf_thres=0.001,
-        nms_thres=0.5,
-        model=None
-):
+def test(cfg, data_cfg, weights=None, batch_size=16, img_size=416, iou_thres=0.5, conf_thres=0.001, nms_thres=0.5, model=None):
     if model is None:
         device = torch_utils.select_device()
 
@@ -132,3 +123,6 @@ def test(
 
     # Return results
     return mp, mr, map, mf1, loss / len(dataloader)
+
+def t():
+    print('sucessed!')

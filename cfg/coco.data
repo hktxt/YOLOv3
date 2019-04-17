@@ -1,6 +1,6 @@
 classes=80
-train=E:/data/coco/trainvalno5k.txt
-valid=E:/data/coco/5k.txt
-names=E:/data/coco.names
+train=C:/coco/trainvalno5kn.txt
+valid=C:/coco/5kn.txt
+names=F:/github/YOLOv3/data/coco.names
 backup=backup/
 eval=coco
