@@ -60,3 +60,10 @@ class LoadDataset(Dataset):
 
         return torch.from_numpy(img), labels_out, img_pth, (h, w)
         #plt.imshow(img.permute(1, 2, 0).numpy())
+        
+    @staticmethod
+    def collate_fn(batch):
+        img, label, path, hw = list(zip(*batch))  # transposed
+        for i, l in enumerate(label):
+            l[:, 0] = i  # add target image index for build_targets()
+        return torch.stack(img, 0), torch.cat(label, 0), path, hw
