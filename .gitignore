@@ -4,4 +4,4 @@ Dev/__pycache__
 Dev/.ipynb_checkpoints
 weights/*.weights
 weights/*.15
-weights/*.75
+weights/*.74
