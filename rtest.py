@@ -41,7 +41,7 @@ def test(cfg, data_cfg, weights=None, batch_size=16, img_size=416, iou_thres=0.5
 
     seen = 0
     model.eval()
-    print(('%20s' + '%10s' * 6) % ('Class', 'Images', 'Targets', 'P', 'R', 'mAP', 'F1'))
+    #print(('%20s' + '%10s' * 6) % ('Class', 'Images', 'Targets', 'P', 'R', 'mAP', 'F1'))
     loss, p, r, f1, mp, mr, map, mf1 = 0., 0., 0., 0., 0., 0., 0., 0.
     jdict, stats, ap, ap_class = [], [], [], []
     for batch_i, (imgs, targets, paths, shapes) in enumerate(tqdm(dataloader, desc='Computing mAP')):
@@ -113,16 +113,13 @@ def test(cfg, data_cfg, weights=None, batch_size=16, img_size=416, iou_thres=0.5
         mp, mr, map, mf1 = p.mean(), r.mean(), ap.mean(), f1.mean()
 
     # Print results
-    pf = '%20s' + '%10.3g' * 6  # print format
-    print(pf % ('all', seen, nt.sum(), mp, mr, map, mf1), end='\n\n')
+    #pf = '%20s' + '%10.3g' * 6  # print format
+    #print(pf % ('all', seen, nt.sum(), mp, mr, map, mf1), end='\n\n')
 
     # Print results per class
-    if nc > 1 and len(stats_np):
-        for i, c in enumerate(ap_class):
-            print(pf % (names[c], seen, nt[c], p[i], r[i], ap[i], f1[i]))
+    #if nc > 1 and len(stats_np):
+        #for i, c in enumerate(ap_class):
+            #print(pf % (names[c], seen, nt[c], p[i], r[i], ap[i], f1[i]))
 
     # Return results
     return mp, mr, map, mf1, loss / len(dataloader)
-
-def t():
-    print('sucessed!')
