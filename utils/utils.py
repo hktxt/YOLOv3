@@ -80,8 +80,10 @@ def build_targets(model, targets):
         t, a = targets, []
         gwh = targets[:, 4:6] * layer.nG
         if nt:
-            iou = [wh_iou(x, gwh) for x in layer.anchor_vec]
-            iou, a = torch.stack(iou, 0).max(0)  # best iou and anchor
+            iou = [wh_iou(x, gwh) for x in layer.anchor_vec] # shape:3*objects
+            iou, a = torch.stack(iou, 0).max(0)  # best iou and anchor, shape:1*objects
+            # iou tensor([0.52454, 0.60101, 0.63675, 0.57156, 0.20339, 0.15697, 0.34320, 0.38994], device='cuda:0')
+            # a tensor([2, 1, 1, 2, 0, 0, 0, 0], device='cuda:0')
 
             # reject below threshold ious (OPTIONAL, increases P, lowers R)
             reject = True
