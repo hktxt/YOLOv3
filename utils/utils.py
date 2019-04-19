@@ -461,3 +461,27 @@ def compute_ap(recall, precision):
     # and sum (\Delta recall) * prec
     ap = np.sum((mrec[i + 1] - mrec[i]) * mpre[i + 1])
     return ap
+
+def scale_coords(img_size, coords, img0_shape):
+    # Rescale x1, y1, x2, y2 from 416 to image size
+    gain = float(img_size) / max(img0_shape)  # gain  = old / new
+    pad_x = (img_size - img0_shape[1] * gain) / 2  # width padding
+    pad_y = (img_size - img0_shape[0] * gain) / 2  # height padding
+    coords[:, [0, 2]] -= pad_x
+    coords[:, [1, 3]] -= pad_y
+    coords[:, :4] /= gain
+    coords[:, :4] = torch.clamp(coords[:, :4], min=0)
+    return coords
+
+def plot_one_box(x, img, color=None, label=None, line_thickness=None):
+    # Plots one bounding box on image img
+    tl = line_thickness or round(0.001 * max(img.shape[0:2])) + 1  # line thickness
+    color = color or [random.randint(0, 255) for _ in range(3)]
+    c1, c2 = (int(x[0]), int(x[1])), (int(x[2]), int(x[3]))
+    cv2.rectangle(img, c1, c2, color, thickness=tl)
+    if label:
+        tf = max(tl - 1, 1)  # font thickness
+        t_size = cv2.getTextSize(label, 0, fontScale=tl / 3, thickness=tf)[0]
+        c2 = c1[0] + t_size[0], c1[1] - t_size[1] - 3
+        cv2.rectangle(img, c1, c2, color, -1)  # filled
+        cv2.putText(img, label, (c1[0], c1[1] - 2), 0, tl / 3, [225, 255, 255], thickness=tf, lineType=cv2.LINE_AA)

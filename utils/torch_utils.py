@@ -12,7 +12,7 @@ def select_device(force_cpu=False):
     device = torch.device('cuda:0' if cuda else 'cpu')
 
     if not cuda:
-        print('Using CPU')
+        print('Using CPU.')
     if cuda:
         c = 1024 ** 2  # bytes to MB
         ng = torch.cuda.device_count()
