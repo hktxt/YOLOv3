@@ -1,5 +1,5 @@
 ### YOLOv3
-<img src="output/Vector.jpg">
+
 ![Vector](output/Vector.jpg)
 
 ### Description
