@@ -37,7 +37,8 @@ Open [detect.ipynb](detect.ipynb) and run it. It can detect objects for a single
 
 <img src="output/Adrian.jpg" width="400"> <img src="output/dog.jpg" width="400">
 <img src="output/India.jpg" width="400"> <img src="output/merlin.jpg" width="400">
-<img src="output/got-s8.jpg" width="400">
+<img src="output/got-s8.jpg" width="400">  
+
 <img src="output/lifelines.jpg" width="400">  <img src="output/Trump.jpg" width="400">
 <img src="output/zidane.jpg" width="400">  <img src="output/pornstar.jpg" width="400">
 <img src="output/Starks.jpg" width="400">  <img src="output/walkers.jpg" width="400">
