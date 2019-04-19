@@ -36,9 +36,11 @@ The pretrained weights can be found on [Google Drive](https://drive.google.com/d
 
 Open [detect.ipynb](detect.ipynb) and run it. It can detect objects for a single image or more under sample folder. 
 
-<img src="output/Adrian.jpg" width="400"> <img src="output/dog.jpg" width="400">
+<img src="output/dog.jpg" width="400"> <img src="output/Adrian.jpg" width="400">
 <img src="output/India.jpg" width="400"> <img src="output/merlin.jpg" width="400">
 <img src="output/Trump.jpg" width="400"> <img src="output/lifelines.jpg" width="400"> 
+
+
 License
 ----
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
