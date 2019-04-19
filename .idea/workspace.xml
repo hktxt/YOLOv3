@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3e895eb-a996-4f91-ab47-00c121445106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/train-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cfg/coco-h.data" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/coco-h.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1555565047.DESKTOP-J0CQ1MR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1555565149.DESKTOP-J0CQ1MR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1555565161.DESKTOP-J0CQ1MR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1555565633.DESKTOP-J0CQ1MR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1555579947.DESKTOP-J0CQ1MR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1555580212.DESKTOP-J0CQ1MR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train-X.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/train-X.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/train.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_batch0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/train_batch0.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="e3e895eb-a996-4f91-ab47-00c121445106" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1570800319">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -41,8 +40,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
-    <option name="y" value="8" />
+    <option name="x" value="238" />
+    <option name="y" value="12" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -66,7 +65,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../YOLOv3 - 副本" />
+    <property name="last_opened_file_path" value="E:/yolov3-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -123,9 +122,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="8" width="1400" height="1000" extended-state="0" />
+    <frame x="238" y="12" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -144,14 +143,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Anaconda3/envs/pytorch/Lib/multiprocessing/spawn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Anaconda3/envs/pytorch/Lib/multiprocessing/spawn.py" />
     <entry file="file://$PROJECT_DIR$/utils/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -159,12 +155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/train-1.py" />
   </component>
 </project>
