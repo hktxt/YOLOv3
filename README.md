@@ -19,6 +19,7 @@ Followed their codes, helped me walkthrough the yolov3 algorithm. Then I reconst
   - opencv
   - json
   - matplotlib
+  - tensorboardX
   - CUDA(optional)
 
 
