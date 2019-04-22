@@ -40,9 +40,13 @@ The pretrained weights can be found on [Google Drive](https://drive.google.com/d
 
 Open [detect.ipynb](detect.ipynb) and run it. It can detect objects for a single image or more under sample folder. The result images with predicted bounding box are saved under output folder.
 
-<center><img src="output/timg3.jpg" width="400"> <img src="output/Adrian.jpg" width="400"></center>
+<img src="output/timg3.jpg" width="400"> <img src="output/Adrian.jpg" width="400">
 <img src="output/timg.jpg" width="400"> <img src="output/merlin.jpg" width="400">
 <img src="output/die-welle.jpg" width="400"> <img src="output/Trump.jpg" width="400"> 
+<div align=center>
+![a](output/merlin.jpg)
+![a](output/merlin.jpg)
+</div>
 
 
 License
