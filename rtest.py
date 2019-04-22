@@ -5,7 +5,7 @@ import numpy as np
 from models import *
 from utils.datasets import *
 from utils.utils import *
-from tqdm import tqdm
+from tqdm import tnrange, tqdm_notebook
 
 def test(cfg, data_cfg, weights=None, batch_size=16, img_size=416, iou_thres=0.5, conf_thres=0.001, nms_thres=0.5, model=None):
     if model is None:
@@ -44,7 +44,7 @@ def test(cfg, data_cfg, weights=None, batch_size=16, img_size=416, iou_thres=0.5
     #print(('%20s' + '%10s' * 6) % ('Class', 'Images', 'Targets', 'P', 'R', 'mAP', 'F1'))
     loss, p, r, f1, mp, mr, map, mf1 = 0., 0., 0., 0., 0., 0., 0., 0.
     jdict, stats, ap, ap_class = [], [], [], []
-    for batch_i, (imgs, targets, paths, shapes) in enumerate(tqdm(dataloader, desc='Computing mAP')):
+    for batch_i, (imgs, targets, paths, shapes) in enumerate(tqdm_notebook(dataloader)):
         targets = targets.to(device)
         imgs = imgs.to(device)
 
