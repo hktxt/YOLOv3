@@ -4,7 +4,7 @@
 
 ### Description
 
-This repository is as a product when I started learning object detection. It contains implementation of training and inference code of YOLOv3 in PyTorch. It is self-contained on mainstream platform and it supports custom data trianing and multi GPUs as well. Credit to Joseph Redmon for [YOLO](https://pjreddie.com/darknet/yolo/) and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: 
+This repository is a product when I started learning object detection. It contains implementation of training and inference code of YOLOv3 in PyTorch. It is self-contained on mainstream platform and it supports custom data trianing and multi GPUs as well. Credit to Joseph Redmon for [YOLO](https://pjreddie.com/darknet/yolo/) and the paper can be found [here](https://pjreddie.com/media/files/papers/YOLOv3.pdf). I am highly inspired by these two repositories: 
 * [ultralytics/yolov3](https://github.com/ultralytics/yolov3) 
 * [ydixon/yolo_v3](https://github.com/ydixon/yolo_v3)  
 
@@ -41,9 +41,9 @@ The pretrained weights can be found on [Google Drive](https://drive.google.com/d
 
 Open [detect.ipynb](detect.ipynb) and run it. It can detect objects for a single image or more under sample folder. The result images with predicted bounding box are saved under output folder.
 
-<img src="output/timg3.jpg" width="400"> <img src="output/Adrian.jpg" width="400">
-<img src="output/timg.jpg" width="400"> <img src="output/merlin.jpg" width="400">
-<img src="output/die-welle.jpg" width="400"> <img src="output/Trump.jpg" width="400"> 
+  <img src="output/timg3.jpg" width="400"> <img src="output/Adrian.jpg" width="400">
+  <img src="output/timg.jpg" width="400"> <img src="output/merlin.jpg" width="400">
+  <img src="output/die-welle.jpg" width="400"> <img src="output/Trump.jpg" width="400"> 
 
 
 License
