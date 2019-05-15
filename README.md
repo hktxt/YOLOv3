@@ -55,3 +55,8 @@ License
 ## Notice
 
 Please note, this is a research project! It should not be used as a definitive guide on object detection. Many engineering features have not been implemented. The demo should be considered for research and entertainment value only.
+
+
+## Reference
+* ultralytics/yolov3: https://github.com/ultralytics/yolov3
+* ydixon/yolo_v3: https://github.com/ydixon/yolo_v3
