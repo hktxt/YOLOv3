@@ -56,7 +56,7 @@ License
 
 * Please note, this is a research project! It should not be used as a definitive guide on object detection. Many engineering features have not been implemented. The demo should be considered for research and entertainment value only.
 * The images used were from web, please contact me if infringes your digital copyright.
-* For limatation of computing resource, I'll update the training result gradually.
+* For the limatation of computing resource, I'll update the training result gradually.
 
 ## Reference
 * ultralytics/yolov3: https://github.com/ultralytics/yolov3
