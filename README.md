@@ -8,7 +8,7 @@ This repository is a product when I started learning object detection. It contai
 * [ultralytics/yolov3](https://github.com/ultralytics/yolov3) 
 * [ydixon/yolo_v3](https://github.com/ydixon/yolo_v3)  
 
-Followed their codes, helped me walkthrough the yolov3 algorithm. Then I reconstructed & rewrited them and made some modifications to try to reimplement it. It is recommended to read their codes to see the specific implementation steps and logic. Also you can just go to the [Dev](/Dev) for more details of YOLOv3.
+Followed their codes, helped me go through the yolov3 algorithm. Then I reconstructed & rewrited them and made some modifications to try to reimplement it. It is recommended to read their codes to see the specific implementation steps and logic. Also you can just go to the [Dev](/Dev) for more details of YOLOv3.
 
 
 ### Requirements
