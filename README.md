@@ -55,7 +55,7 @@ License
 ## Notice
 
 * Please note, this is a research project! It should not be used as a definitive guide on object detection. Many engineering features have not been implemented. The demo should be considered for research and entertainment value only.
-* The images used were from web, please contact me if infringes your digital copyright.
+* The used images were from web, please contact me if they infringe your digital copyright.
 * For the limatation of computing resource, I'll update the training result gradually.
 
 ## Reference
